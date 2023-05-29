@@ -1,0 +1,95 @@
+
+header{
+    height: 125px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.nav_principal{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+
+.nav_principal li{
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+}
+
+#login{
+    position: absolute;
+    left: 90%;
+}
+
+.nav_bar{
+    background-color: #C4170C;
+    height:80px;
+    position: relative;
+}
+
+.nav_bar li{
+    display: none;
+}
+
+#home a{
+color:#0e2f69 ;
+font-weight: bold;
+}
+
+#noticias a{
+color: #c4170c;
+font-weight: bold;
+}
+
+#esports a{
+color:#06aa48;
+font-weight: bold;
+}
+
+#pop a{
+color:#fb0234;
+font-weight: bold;
+}
+
+#geek a{
+color:#1e4c9a;
+font-weight: bold;
+}
+
+#artigos a{
+color:#ff6700;
+font-weight: bold;
+}
+
+.bar1{
+    background-color: #fff;
+    height: 2px;
+    width: 22px;
+    margin-top: 4px;
+}
+
+.menu_title{
+    left: 28px;
+    top: 4px;
+    font-size: 0.85rem;
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+    background-color: #C4170C;
+}
+
+.div_button{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 27px;
+    background-color:#C4170C ;
+}
